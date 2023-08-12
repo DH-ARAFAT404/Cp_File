@@ -221,6 +221,7 @@ def ARAFAT():
 		#gml()
 	if me in ["1", "01","11","A","a"]:
 		clear()
+		print("Example : /sdcard/file.txt  etc ")
 		file = input(f' [\033[1;32m✓\033[1;37m] Put File Location [\033[1;32m❯\033[1;37m] ')
 		try:
 			fo = open(file,'r').read().splitlines()
